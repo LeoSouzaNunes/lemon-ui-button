@@ -1,12 +1,10 @@
 function App() {
     return (
         <div>
-            <header>
-                <h1>Sample Page</h1>
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-            </header>
+            <h1>UI Button Display</h1>
+            <p>
+                Edit <code>src/App.js</code> and save to reload.
+            </p>
         </div>
     );
 }
