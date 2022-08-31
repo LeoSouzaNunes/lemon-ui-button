@@ -1,10 +1,12 @@
+import Button from "./components/Button";
+
 function App() {
     return (
-        <div>
+        <div className="test">
             <h1>UI Button Display</h1>
-            <p>
-                Edit <code>src/App.js</code> and save to reload.
-            </p>
+            <Button color="secondary" icon="refresh">
+                Click
+            </Button>
         </div>
     );
 }

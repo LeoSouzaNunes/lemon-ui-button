@@ -26,6 +26,16 @@ const GlobalStyle = createGlobalStyle`
 
         min-height:100vh;
     }
+
+    button{
+        transition: background 0.15s;
+    }
+
+    .test{
+        display:flex;
+        flex-direction:column;
+        width:500px;
+    }
 `;
 
 export default GlobalStyle;
