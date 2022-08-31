@@ -15,7 +15,7 @@ export default function Button({
             onClick={onClick}
             icon={icons[icon.replace("-", "_")]}
         >
-            {children && <span>{children}</span>}
+            {children && children}
             {children && icons[icon.replace("-", "_")] && (
                 <img src={icons[icon.replace("-", "_")]} alt={icon} />
             )}
