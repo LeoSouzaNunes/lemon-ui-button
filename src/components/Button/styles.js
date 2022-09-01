@@ -3,6 +3,7 @@ import styled from "styled-components";
 const StyledButton = styled.button`
     border-style: none;
 
+    width: 100%;
     height: 56px;
     padding: 0px 20px;
 
