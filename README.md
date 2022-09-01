@@ -1,6 +1,6 @@
 # Descrição
 
-  Um botão desenvolvido para a biblioteca te componentes UI da Lemon Energia. Você pode verificar as funcionalidades do componente através da [demo](https://lemon-ui-button.vercel.app/) ou rodar localmente seguindo as próximas instruções.
+  Um [botão](https://github.com/LeoSouzaNunes/lemon-ui-button/tree/main/src/components/Button) desenvolvido para a biblioteca te componentes UI da Lemon Energia. Você pode verificar as funcionalidades do componente através da [demo](https://lemon-ui-button.vercel.app/) ou rodar localmente seguindo as próximas instruções.
   
 ## Rodando localmente
 
