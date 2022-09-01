@@ -12,7 +12,7 @@ export default function Form() {
     };
 
     return (
-        <StyledForm>
+        <StyledForm onSubmit={(e) => e.preventDefault()}>
             <label>
                 Conteúdo do botão:
                 <br />
