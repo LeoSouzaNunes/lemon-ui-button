@@ -14,6 +14,7 @@ const DashboardContainer = styled.div`
     h1 {
         font-size: 1.85rem;
         text-align: center;
+        padding-bottom: 50px;
     }
 
     @media (max-width: 800px) {
@@ -21,4 +22,17 @@ const DashboardContainer = styled.div`
     }
 `;
 
-export default DashboardContainer;
+const Footer = styled.footer`
+    margin-left: auto;
+    margin-top: auto;
+
+    opacity: ${({ lemon }) => lemon};
+    cursor: ${({ lemon }) => (lemon > 0.2 ? "pointer" : "none")};
+    pointer-events: ${({ lemon }) => (lemon > 0.2 ? "all" : "none")};
+
+    a {
+        text-decoration: none;
+    }
+`;
+
+export { DashboardContainer, Footer };

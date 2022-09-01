@@ -11,8 +11,8 @@ const Container = styled.div`
     background-color: #ffffff;
 
     > img {
-        padding: 0px 20px;
         width: 150px;
+        height: 35px;
     }
 
     > div {
