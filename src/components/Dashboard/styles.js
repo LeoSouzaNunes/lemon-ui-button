@@ -23,14 +23,15 @@ const DashboardContainer = styled.div`
 `;
 
 const Footer = styled.footer`
-    margin-left: auto;
     margin-top: auto;
+    margin-left: auto;
 
     opacity: ${({ lemon }) => lemon};
-    cursor: ${({ lemon }) => (lemon > 0.2 ? "pointer" : "none")};
-    pointer-events: ${({ lemon }) => (lemon > 0.2 ? "all" : "none")};
+    cursor: ${({ lemon }) => (lemon > 0 ? "pointer" : "none")};
+    pointer-events: ${({ lemon }) => (lemon > 0 ? "all" : "none")};
 
     a {
+        font-size: 1.8rem;
         text-decoration: none;
     }
 `;
